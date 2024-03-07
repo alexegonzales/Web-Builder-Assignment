@@ -288,7 +288,7 @@ html {
 .grid {
   display: grid;
   grid-template-columns: repeat(3,350px);  /* 3 columns */
-  grid-gap: 80px 50px; 
+  grid-gap: 100px 50px; 
   justify-content: space-evenly;
   justify-items: center;
   align-content: space-evenly;
