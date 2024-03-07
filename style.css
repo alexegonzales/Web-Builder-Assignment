@@ -31,18 +31,19 @@ html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('https://images.unsplash.com/photo-1565182999561-18d7dc61c393?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjQxNDUyfQ&w=1920');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
 
 #header .navbar {
     top: 0;
-    height: 5em;
+    height: 6em;
     position: fixed;
     z-index: 10;
     transition: background-color 0.4s ease-in-out;
     display: block;
-    padding: 23px 110px;
+    padding: 33px 110px;
     width: 100%;
-    
 }
 
 
@@ -287,7 +288,7 @@ html {
 .grid {
   display: grid;
   grid-template-columns: repeat(3,350px);  /* 3 columns */
-  grid-gap: 100px 50px; 
+  grid-gap: 80px 50px; 
   justify-content: space-evenly;
   justify-items: center;
   align-content: space-evenly;
@@ -874,9 +875,7 @@ html {
 
 /* responsiveness */
 
-@media only screen and (max-width: 991px) {
-    
-}
+
 
 /*
 .work-btn {
