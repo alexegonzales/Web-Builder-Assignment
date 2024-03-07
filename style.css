@@ -42,7 +42,7 @@ html {
     z-index: 10;
     transition: background-color 0.4s ease-in-out;
     display: block;
-    padding: 33px 110px;
+    padding: 30px 110px;
     width: 100%;
 }
 
