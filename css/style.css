@@ -77,6 +77,10 @@ a {
 .header {
     background-color: #3C3D37;
     display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .navbar {
@@ -967,6 +971,17 @@ a {
     }
 
 }
+
+/* for medium devices */
+
+@media screen and (min-width: 451px) {
+
+    #header .navbar {
+        width: 100%;
+        margin-inline: 2rem;
+    }
+}
+
 
 
 /* for large devies */
